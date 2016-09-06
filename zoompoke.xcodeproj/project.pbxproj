@@ -7,13 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80DF5ABB1D59FA0400E96682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF5ABA1D59FA0400E96682 /* AppDelegate.swift */; };
-		80DF5ABD1D59FA0400E96682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF5ABC1D59FA0400E96682 /* ViewController.swift */; };
-		80DF5AC01D59FA0400E96682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DF5ABE1D59FA0400E96682 /* Main.storyboard */; };
+		8003CA601D742D8300D32769 /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8003CA5F1D742D8300D32769 /* UIViewController+Alerts.m */; };
+		802AE1931D6321CC008D4E5E /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DF5AED1D5B2D2900E96682 /* GoogleSignIn.framework */; };
+		8046BE0D1D643AF6001DAB5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8046BE0C1D643AF6001DAB5F /* GoogleService-Info.plist */; };
+		80862EAB1D66C04D0012DC18 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 804B81461D5B4821006288EF /* libz.1.dylib */; };
+		80862EAD1D66C1300012DC18 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80862EAC1D66C1300012DC18 /* Bolts.framework */; };
+		80862EAF1D66C13E0012DC18 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80862EAE1D66C13E0012DC18 /* FBSDKCoreKit.framework */; };
+		80862EB11D66C14A0012DC18 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80862EB01D66C14A0012DC18 /* FBSDKLoginKit.framework */; };
+		80862EB31D66C1570012DC18 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80862EB21D66C1570012DC18 /* FBSDKShareKit.framework */; };
+		808BD6941D64782E00832764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808BD6931D64782E00832764 /* AppDelegate.swift */; };
+		808C5B9F1D6EE10B0030EF4A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808C5B9B1D6EE10B0030EF4A /* Fabric.framework */; };
+		808C5BA01D6EE10B0030EF4A /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808C5B9C1D6EE10B0030EF4A /* TwitterKit.framework */; };
+		808C5BA11D6EE10B0030EF4A /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 808C5B9D1D6EE10B0030EF4A /* TwitterKitResources.bundle */; };
+		808C5BA21D6EE10B0030EF4A /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808C5B9E1D6EE10B0030EF4A /* TwitterCore.framework */; };
+		808C5BA31D6EE2FF0030EF4A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80862EB51D6BF6EB0012DC18 /* MainViewController.swift */; };
+		808C5BA41D6EE3060030EF4A /* CustomTokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80862EB91D6BF7170012DC18 /* CustomTokenViewController.swift */; };
+		808C5BA51D6EE30B0030EF4A /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80862EBB1D6E97590012DC18 /* EmailViewController.swift */; };
+		8093F1911D6470D500F9278D /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F062D91D630805003EAFF1 /* FirebaseInstanceID.framework */; };
+		80B6B8B31D704EC9002D3684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B6B8B11D704EC9002D3684 /* Main.storyboard */; };
+		80BF9A9B1D5B5CA40061303E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BF9A9A1D5B5CA40061303E /* libz.tbd */; };
+		80BF9AA11D5B5D640061303E /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BF9A9C1D5B5D640061303E /* GoogleAppUtilities.framework */; };
+		80BF9AA21D5B5D640061303E /* GoogleAuthUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BF9A9D1D5B5D640061303E /* GoogleAuthUtilities.framework */; };
+		80BF9AA51D5B5D640061303E /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BF9AA01D5B5D640061303E /* GoogleUtilities.framework */; };
 		80DF5AC21D59FA0400E96682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DF5AC11D59FA0400E96682 /* Assets.xcassets */; };
 		80DF5AC51D59FA0400E96682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DF5AC31D59FA0400E96682 /* LaunchScreen.storyboard */; };
 		80DF5AD01D59FA0400E96682 /* zoompokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF5ACF1D59FA0400E96682 /* zoompokeTests.swift */; };
 		80DF5ADB1D59FA0400E96682 /* zoompokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF5ADA1D59FA0400E96682 /* zoompokeUITests.swift */; };
+		80DF5AEE1D5B2D2900E96682 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80DF5AEC1D5B2D2800E96682 /* GoogleSignIn.bundle */; };
+		80DF5AEF1D5B2D2900E96682 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80DF5AEC1D5B2D2800E96682 /* GoogleSignIn.bundle */; };
+		80DF5AF01D5B2D2900E96682 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80DF5AEC1D5B2D2800E96682 /* GoogleSignIn.bundle */; };
+		80DF5AF21D5B2D2900E96682 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DF5AED1D5B2D2900E96682 /* GoogleSignIn.framework */; };
+		80DF5AF31D5B2D2900E96682 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DF5AED1D5B2D2900E96682 /* GoogleSignIn.framework */; };
+		80DF5AF51D5B326A00E96682 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DF5AF41D5B326A00E96682 /* AddressBook.framework */; };
+		80DF5AF71D5B327E00E96682 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DF5AF61D5B327E00E96682 /* SafariServices.framework */; };
+		80DF5AF91D5B328C00E96682 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DF5AF81D5B328C00E96682 /* SystemConfiguration.framework */; };
+		80F062D21D630200003EAFF1 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F062D11D630200003EAFF1 /* GoogleNetworkingUtilities.framework */; };
+		80F062D61D630215003EAFF1 /* GoogleParsingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F062D51D630215003EAFF1 /* GoogleParsingUtilities.framework */; };
+		80F062DE1D630E47003EAFF1 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F062DD1D630E47003EAFF1 /* GoogleInterchangeUtilities.framework */; };
+		80F062E01D630E9C003EAFF1 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F062DF1D630E9C003EAFF1 /* GoogleSymbolUtilities.framework */; };
+		80F062E11D631423003EAFF1 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F062DB1D630810003EAFF1 /* FirebaseAnalytics.framework */; };
+		80F062E31D631454003EAFF1 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F062D31D63020B003EAFF1 /* FirebaseAuth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +67,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8003CA5F1D742D8300D32769 /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alerts.m"; path = "zoompoke/UIViewController+Alerts.m"; sourceTree = "<group>"; };
+		8046BE0C1D643AF6001DAB5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		804B81461D5B4821006288EF /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		80862EAC1D66C1300012DC18 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		80862EAE1D66C13E0012DC18 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		80862EB01D66C14A0012DC18 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		80862EB21D66C1570012DC18 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		80862EB41D6BF6030012DC18 /* UIViewController+Alerts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Alerts.h"; path = "zoompoke/UIViewController+Alerts.h"; sourceTree = "<group>"; };
+		80862EB51D6BF6EB0012DC18 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		80862EB91D6BF7170012DC18 /* CustomTokenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTokenViewController.swift; sourceTree = "<group>"; };
+		80862EBB1D6E97590012DC18 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		808B885A1D5B391700F8A4BB /* zoompoke-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zoompoke-Bridging-Header.h"; sourceTree = "<group>"; };
+		808BD6931D64782E00832764 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		808C5B9B1D6EE10B0030EF4A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		808C5B9C1D6EE10B0030EF4A /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		808C5B9D1D6EE10B0030EF4A /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		808C5B9E1D6EE10B0030EF4A /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		80B6B8B21D704EC9002D3684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80BF9A9A1D5B5CA40061303E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		80BF9A9C1D5B5D640061303E /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		80BF9A9D1D5B5D640061303E /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		80BF9A9E1D5B5D640061303E /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		80BF9A9F1D5B5D640061303E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		80BF9AA01D5B5D640061303E /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
 		80DF5AB71D59FA0400E96682 /* zoompoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zoompoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80DF5ABA1D59FA0400E96682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80DF5ABC1D59FA0400E96682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80DF5ABF1D59FA0400E96682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80DF5AC11D59FA0400E96682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80DF5AC41D59FA0400E96682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80DF5AC61D59FA0400E96682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +101,20 @@
 		80DF5AD61D59FA0400E96682 /* zoompokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zoompokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DF5ADA1D59FA0400E96682 /* zoompokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoompokeUITests.swift; sourceTree = "<group>"; };
 		80DF5ADC1D59FA0400E96682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DF5AEC1D5B2D2800E96682 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		80DF5AED1D5B2D2900E96682 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		80DF5AF41D5B326A00E96682 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		80DF5AF61D5B327E00E96682 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		80DF5AF81D5B328C00E96682 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		80F062D11D630200003EAFF1 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		80F062D31D63020B003EAFF1 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		80F062D51D630215003EAFF1 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		80F062D71D6303C5003EAFF1 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = zoompoke/Firebase.h; sourceTree = "<group>"; };
+		80F062D81D6304CF003EAFF1 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		80F062D91D630805003EAFF1 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		80F062DB1D630810003EAFF1 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		80F062DD1D630E47003EAFF1 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		80F062DF1D630E9C003EAFF1 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +122,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80862EB31D66C1570012DC18 /* FBSDKShareKit.framework in Frameworks */,
+				80862EB11D66C14A0012DC18 /* FBSDKLoginKit.framework in Frameworks */,
+				80862EAF1D66C13E0012DC18 /* FBSDKCoreKit.framework in Frameworks */,
+				80862EAD1D66C1300012DC18 /* Bolts.framework in Frameworks */,
+				80862EAB1D66C04D0012DC18 /* libz.1.dylib in Frameworks */,
+				808C5BA01D6EE10B0030EF4A /* TwitterKit.framework in Frameworks */,
+				8093F1911D6470D500F9278D /* FirebaseInstanceID.framework in Frameworks */,
+				802AE1931D6321CC008D4E5E /* GoogleSignIn.framework in Frameworks */,
+				80F062E31D631454003EAFF1 /* FirebaseAuth.framework in Frameworks */,
+				80F062E11D631423003EAFF1 /* FirebaseAnalytics.framework in Frameworks */,
+				808C5BA21D6EE10B0030EF4A /* TwitterCore.framework in Frameworks */,
+				80F062D21D630200003EAFF1 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				80BF9AA11D5B5D640061303E /* GoogleAppUtilities.framework in Frameworks */,
+				80BF9A9B1D5B5CA40061303E /* libz.tbd in Frameworks */,
+				80DF5AF91D5B328C00E96682 /* SystemConfiguration.framework in Frameworks */,
+				80BF9AA21D5B5D640061303E /* GoogleAuthUtilities.framework in Frameworks */,
+				808C5B9F1D6EE10B0030EF4A /* Fabric.framework in Frameworks */,
+				80DF5AF71D5B327E00E96682 /* SafariServices.framework in Frameworks */,
+				80DF5AF51D5B326A00E96682 /* AddressBook.framework in Frameworks */,
+				80F062DE1D630E47003EAFF1 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				80BF9AA51D5B5D640061303E /* GoogleUtilities.framework in Frameworks */,
+				80F062D61D630215003EAFF1 /* GoogleParsingUtilities.framework in Frameworks */,
+				80F062E01D630E9C003EAFF1 /* GoogleSymbolUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DF5AF21D5B2D2900E96682 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +160,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DF5AF31D5B2D2900E96682 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		804B81451D5B4821006288EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80862EB41D6BF6030012DC18 /* UIViewController+Alerts.h */,
+				8003CA5F1D742D8300D32769 /* UIViewController+Alerts.m */,
+				808C5B9B1D6EE10B0030EF4A /* Fabric.framework */,
+				808C5B9C1D6EE10B0030EF4A /* TwitterKit.framework */,
+				808C5B9D1D6EE10B0030EF4A /* TwitterKitResources.bundle */,
+				808C5B9E1D6EE10B0030EF4A /* TwitterCore.framework */,
+				80862EB21D66C1570012DC18 /* FBSDKShareKit.framework */,
+				80862EB01D66C14A0012DC18 /* FBSDKLoginKit.framework */,
+				80862EAE1D66C13E0012DC18 /* FBSDKCoreKit.framework */,
+				80862EAC1D66C1300012DC18 /* Bolts.framework */,
+				80F062DF1D630E9C003EAFF1 /* GoogleSymbolUtilities.framework */,
+				80F062DD1D630E47003EAFF1 /* GoogleInterchangeUtilities.framework */,
+				80F062D71D6303C5003EAFF1 /* Firebase.h */,
+				80F062D91D630805003EAFF1 /* FirebaseInstanceID.framework */,
+				80F062DB1D630810003EAFF1 /* FirebaseAnalytics.framework */,
+				80F062D51D630215003EAFF1 /* GoogleParsingUtilities.framework */,
+				80F062D31D63020B003EAFF1 /* FirebaseAuth.framework */,
+				80F062D11D630200003EAFF1 /* GoogleNetworkingUtilities.framework */,
+				80DF5AEC1D5B2D2800E96682 /* GoogleSignIn.bundle */,
+				80BF9A9C1D5B5D640061303E /* GoogleAppUtilities.framework */,
+				80BF9A9D1D5B5D640061303E /* GoogleAuthUtilities.framework */,
+				80BF9A9E1D5B5D640061303E /* GoogleNetworkingUtilities.framework */,
+				80BF9A9F1D5B5D640061303E /* GoogleSymbolUtilities.framework */,
+				80BF9AA01D5B5D640061303E /* GoogleUtilities.framework */,
+				80BF9A9A1D5B5CA40061303E /* libz.tbd */,
+				804B81461D5B4821006288EF /* libz.1.dylib */,
+				80DF5AED1D5B2D2900E96682 /* GoogleSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		80DF5AAE1D59FA0400E96682 = {
 			isa = PBXGroup;
 			children = (
+				80DF5AF81D5B328C00E96682 /* SystemConfiguration.framework */,
+				80DF5AF61D5B327E00E96682 /* SafariServices.framework */,
+				80DF5AF41D5B326A00E96682 /* AddressBook.framework */,
 				80DF5AB91D59FA0400E96682 /* zoompoke */,
 				80DF5ACE1D59FA0400E96682 /* zoompokeTests */,
 				80DF5AD91D59FA0400E96682 /* zoompokeUITests */,
 				80DF5AB81D59FA0400E96682 /* Products */,
+				804B81451D5B4821006288EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +228,17 @@
 		80DF5AB91D59FA0400E96682 /* zoompoke */ = {
 			isa = PBXGroup;
 			children = (
-				80DF5ABA1D59FA0400E96682 /* AppDelegate.swift */,
-				80DF5ABC1D59FA0400E96682 /* ViewController.swift */,
-				80DF5ABE1D59FA0400E96682 /* Main.storyboard */,
+				808BD6931D64782E00832764 /* AppDelegate.swift */,
+				80862EBB1D6E97590012DC18 /* EmailViewController.swift */,
 				80DF5AC11D59FA0400E96682 /* Assets.xcassets */,
+				80B6B8B11D704EC9002D3684 /* Main.storyboard */,
+				80862EB91D6BF7170012DC18 /* CustomTokenViewController.swift */,
+				80862EB51D6BF6EB0012DC18 /* MainViewController.swift */,
 				80DF5AC31D59FA0400E96682 /* LaunchScreen.storyboard */,
 				80DF5AC61D59FA0400E96682 /* Info.plist */,
+				8046BE0C1D643AF6001DAB5F /* GoogleService-Info.plist */,
+				80F062D81D6304CF003EAFF1 /* module.modulemap */,
+				808B885A1D5B391700F8A4BB /* zoompoke-Bridging-Header.h */,
 			);
 			path = zoompoke;
 			sourceTree = "<group>";
@@ -135,6 +271,7 @@
 				80DF5AB31D59FA0400E96682 /* Sources */,
 				80DF5AB41D59FA0400E96682 /* Frameworks */,
 				80DF5AB51D59FA0400E96682 /* Resources */,
+				808C5B9A1D6ECCF40030EF4A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -188,18 +325,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jinghe Zhang";
 				TargetAttributes = {
 					80DF5AB61D59FA0400E96682 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 35DPN3BL4S;
+						LastSwiftMigration = 0800;
 					};
 					80DF5ACA1D59FA0400E96682 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 80DF5AB61D59FA0400E96682;
 					};
 					80DF5AD51D59FA0400E96682 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 80DF5AB61D59FA0400E96682;
 					};
 				};
@@ -230,8 +371,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				80DF5AC51D59FA0400E96682 /* LaunchScreen.storyboard in Resources */,
+				80DF5AEE1D5B2D2900E96682 /* GoogleSignIn.bundle in Resources */,
 				80DF5AC21D59FA0400E96682 /* Assets.xcassets in Resources */,
-				80DF5AC01D59FA0400E96682 /* Main.storyboard in Resources */,
+				80B6B8B31D704EC9002D3684 /* Main.storyboard in Resources */,
+				808C5BA11D6EE10B0030EF4A /* TwitterKitResources.bundle in Resources */,
+				8046BE0D1D643AF6001DAB5F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DF5AEF1D5B2D2900E96682 /* GoogleSignIn.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +391,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DF5AF01D5B2D2900E96682 /* GoogleSignIn.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		808C5B9A1D6ECCF40030EF4A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 38869cfd8b02a46da085f39df5c9d1cf8943732a 60f7ed041237f3364883826facb24f8e1e10f409730b8e36a2695ff0f1245c9a";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80DF5AB31D59FA0400E96682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80DF5ABD1D59FA0400E96682 /* ViewController.swift in Sources */,
-				80DF5ABB1D59FA0400E96682 /* AppDelegate.swift in Sources */,
+				808C5BA51D6EE30B0030EF4A /* EmailViewController.swift in Sources */,
+				8003CA601D742D8300D32769 /* UIViewController+Alerts.m in Sources */,
+				808C5BA41D6EE3060030EF4A /* CustomTokenViewController.swift in Sources */,
+				808C5BA31D6EE2FF0030EF4A /* MainViewController.swift in Sources */,
+				808BD6941D64782E00832764 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +458,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		80DF5ABE1D59FA0400E96682 /* Main.storyboard */ = {
+		80B6B8B11D704EC9002D3684 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80DF5ABF1D59FA0400E96682 /* Base */,
+				80B6B8B21D704EC9002D3684 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -326,8 +491,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -372,8 +539,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -401,10 +570,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 35DPN3BL4S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = zoompoke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jz.zoompoke;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+					"$(inherited)",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)\n\n$(inherited)\n\n$(inherited)\n\n$( inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Zoompoke.yidong.at;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zoompoke/zoompoke-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +598,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 35DPN3BL4S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = zoompoke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jz.zoompoke;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+					"$(inherited)",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)\n\n$(inherited)\n\n$(inherited)\n\n$( inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Zoompoke.yidong.at;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zoompoke/zoompoke-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -423,10 +626,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = zoompokeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jz.zoompokeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zoompoke/zoompokeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoompoke.app/zoompoke";
 			};
 			name = Debug;
@@ -435,10 +646,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = zoompokeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jz.zoompokeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zoompoke/zoompokeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoompoke.app/zoompoke";
 			};
 			name = Release;
@@ -446,10 +665,18 @@
 		80DF5AE61D59FA0400E96682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = zoompokeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jz.zoompokeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zoompoke/zoompokeUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = zoompoke;
 			};
 			name = Debug;
@@ -457,10 +684,18 @@
 		80DF5AE71D59FA0400E96682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = zoompokeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jz.zoompokeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zoompoke/zoompokeUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = zoompoke;
 			};
 			name = Release;
@@ -484,6 +719,7 @@
 				80DF5AE11D59FA0400E96682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80DF5AE21D59FA0400E96682 /* Build configuration list for PBXNativeTarget "zoompokeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +728,7 @@
 				80DF5AE41D59FA0400E96682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80DF5AE51D59FA0400E96682 /* Build configuration list for PBXNativeTarget "zoompokeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +737,7 @@
 				80DF5AE71D59FA0400E96682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
